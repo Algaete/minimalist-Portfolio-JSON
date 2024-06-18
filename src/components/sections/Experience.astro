@@ -1,0 +1,64 @@
+---
+import Section from "../Section.astro"
+import { work, basics } from "@cv"
+
+const { location } = basics 
+const { city, region} = location
+---
+
+<Section>
+    <h3 class="divider">Experiencia</h3>
+    <ul>
+        {
+            work.map(({ name, startDate, endDate, position, summary, highlights })=>{
+                const startYear = new Date(startDate).getFullYear()
+                const endYear = endDate != null ? new Date(endDate).getFullYear() : "Present"
+                const years = `${startYear} - ${endYear}`
+                const place = `${city}, ${region}`
+                return (
+                <li>
+                    <article>
+                        <header>
+                           
+                                <h4>{name}</h4>
+                                <h4>{position}</h4>
+                           
+                            <p>{place}</p>
+                            <time><b>{years}</b></time>
+                        </header>
+                        <footer>
+                            <p>{summary}</p>
+                        </footer>
+                    </article>
+                </li>
+            )
+    })}
+    </ul>
+</Section>
+
+<style>
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    article h3{
+        font-weight: 700;
+        color: #222;
+        margin: 0 0 0 0;
+    }
+
+    article h4{
+        margin: 0 0 0 0;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 4px;
+    }
+    time{
+        color: #555;
+        font-size: 0.85rem;
+    }
+</style>
