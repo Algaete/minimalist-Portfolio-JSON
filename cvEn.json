@@ -1,15 +1,15 @@
 {
     "basics": {
       "name": "ALFONSO GAETE RODRIGUEZ",
-      "label": "Full Stack Developer con más de 15 años de experiencia & Creador de Contenido de Programación",
+      "label": "Middle software engineer with strong knowledge in the back and front end with 5 years of experience, future mobile developer",
       "image": "/me.webp",
-      "email": "miduga@gmail.com",
+      "email": "agaeter@gmail.com",
       "phone": "+34 688888888",
-      "url": "https://midu.dev",
-      "summary": "+15 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
+      "url": "https://bigthinks.cl",
+      "summary": "My name is Alfonso Gaete, I'm from Chile and I hold a degree in computer engineering from the Pontifical Catholic University of Valparaíso. I was studying English in Australia after 5 years of work as a computer engineer in various companies in Chile and now in my back to Chili I  am studying a diploma en Desarrollo de aplicaciones móviles in Pontifical Catholic University of Chili. I graduated as the third-highest ranked student out of fifty-five in my class of Bachelor.",
       "location": {
         "address": "",
-        "postalCode": "08820",
+        "postalCode": "7550000",
         "city": "Santiago",
         "countryCode": "CL",
         "region": "Chile"
@@ -17,50 +17,75 @@
       "profiles": [
         {
           "network": "LinkedIn",
-          "username": "midudev",
-          "url": "https://linkedin.com/in/midudev"
+          "username": "Algaete",
+          "url": "https://www.linkedin.com/in/algaete"
         },
         {
           "network": "X",
-          "username": "midudev",
-          "url": "https://x.com/midudev"
+          "username": "Algaete",
+          "url": "https://x.com/Algaete"
         },
         {
           "network": "GitHub",
-          "username": "midudev",
-          "url": "https://github.com/midudev"
+          "username": "Algaete",
+          "url": "https://github.com/Algaete"
         }
       ]
     },
-    "work": [
+   "work": [
       {
-        "name": "midudev",
-        "position": "Divulgador sobre Programación Web",
+        "name": "Medismart",
+        "position": "Software Engineer",
+        "url": "https://twitch.tv/midudev",
+        "startDate": "2021-01-01",
+        "endDate": "2023-06-01",
+        "summary": [
+          "In my role, I spearheaded the development and maintenance of an ASP.NET application, develop new client’s requirements of the biggest telehealth of Chile (Medismart) using ASP.NET, Blazor, MSSQL and Vue.",
+          "Additionally, I managed databases, playing a pivotal role in the creation of functions, stored procedures, database indexes, and other crucial elements on SQL Server and Azure platform.",
+          "Designed and implemented scalable APIs and background workers for managing first- and third-party proprietary licenses using .net Core, Azure Functions, and other Azure cloud technologies that serve millions of transaction requests daily."
+        ],
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "Keytec",
+        "position": "Full Stack Developer",
+        "url": "https://twitch.tv/midudev",
+        "startDate": "2019-06-01",
+        "endDate": "2021-12-01",
+        "summary": [
+          "I created and exclusive administration platform for the Molymet mining company, that provides a rich visual summary of daily contractor’s statistics powered by Zkteco facial recognition devices. Using PHP, Bootstrap, MSSQL, ajax and jQuery.",
+          "I created ADMS: Program that connect the Zkteco devices with Keytec platform, recollecting hundreds of thousands transaction daily. Added to the ADMS I implemented an intelligent system of transactions logs which performs a fundamental function to the company. Using C#, EntityFramework and MSSQL.",
+          "Actively participated in the maintenance and updating of the Keytec platform. "
+        ],
+        "highlights": [
+          "Started the company"
+        ]
+      },
+      {
+        "name": "Milu PetShop",
+        "position": "Website Developer, Contract",
         "url": "https://twitch.tv/midudev",
         "startDate": "2021-01-01",
         "endDate": null,
-        "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
+        "summary": [
+          "Ecommerce develops with Magento and WooCommerce.",
+          "Digital marketing using SEO and Google AdWords."
+        ],
         "highlights": [
           "Started the company"
         ]
       },
       {
-        "name": "Adevinta",
-        "position": "Lead Frontend Architect",
+        "name": "Banco Ripley",
+        "position": "Database Engineer, Intern",
         "url": "https://twitch.tv/midudev",
-        "startDate": "2016-06-01",
-        "endDate": "2022-09-01",
-        "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
-        "highlights": [
-          "Started the company"
-        ]
-      },
-      {
-        "name": "Hubii",
-        "position": "Senior FrontEnd Developer",
-        "startDate": "2011-03-01",
-        "endDate": "2016-05-01",
-        "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
+        "startDate": "2019-01-01",
+        "endDate": "2019-06-01",
+        "summary": [
+          "Data Warehouse co-manager: ETL, database normalization, backup, access manager, store procedures."
+        ],
         "highlights": [
           "Started the company"
         ]
@@ -78,25 +103,25 @@
       ]
     }],
     "education": [{
-      "institution": "Universitat Oberta de Catalunya",
-      "url": "https://www.uoc.edu/portal/es/index.html",
-      "area": "Ingeniero de Software",
+      "institution": "Catholic University of Valparaíso",
+      "url": "https://www.pucv.cl/",
+      "area": "Ingeniero en Informática",
       "studyType": "Bachelor",
-      "startDate": "2003-01-01",
-      "endDate": "2009-01-01",
-      "score": "4.0",
+      "startDate": "2012-03-01",
+      "endDate": "2017-12-01",
+      "score": "5.7",
       "courses": [
         "DB1101 - Basic SQL"
       ]
     },
     {
-      "institution": "Universitat Oberta de Catalunya",
+      "institution": "Greenwich college",
       "url": "https://www.uoc.edu/portal/es/index.html",
-      "area": "Ingeniero de Software",
-      "studyType": "Bachelor",
-      "startDate": "2023-06-01",
-      "endDate": "2023-12-12",
-      "score": "4.0",
+      "area": "General English Course",
+      "studyType": "Course",
+      "startDate": "2023-07-01",
+      "endDate": "2023-12-24",
+      "score": "upper intermediate",
       "courses": [
         "DB1101 - Basic SQL"
       ]
@@ -139,32 +164,46 @@
         "name": "JavaScript",
         "level": "Master",
         "keywords": [
-          "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+          "Desarrollo Web", "Frontend", "Fullstack"
         ]
       },
       {
-        "name": "Tailwind",
+        "name": "PHP",
         "level": "Avanzado",
         "keywords": [
-          "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+          "Desarrollo Web", "Frontend", "Backend"
+        ]
+      }, 
+      {
+        "name": "Dotnet",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive","Backend"
         ]
       },
       {
         "name": "TypeScript",
         "level": "Avanzado",
         "keywords": [
-          "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+          "Desarrollo Web", "Frontend", "JavaScript Superset"
+        ]
+      },
+      {
+        "name": "React",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "JavaScript Superset"
         ]
       },
       {
         "name": "Node",
         "level": "Avanzado",
         "keywords": [
-          "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+          
         ]
       },
       {
-        "name": "MySQL",
+        "name": "SQL",
         "level": "Avanzado",
         "keywords": [
           "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
@@ -192,10 +231,24 @@
         ]
       },
       {
-        "name": "React",
+        "name": "WordPress",
         "level": "Avanzado",
         "keywords": [
-          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+          "Desarrollo Web", "Frontend","Ecommerce"
+        ]
+      },
+      {
+        "name": "Kotlin",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend","Backend"
+        ]
+      },
+      {
+        "name": "Azure",
+        "level": "Avanzado",
+        "keywords": [
+          "Colaboración", "Cloud"
         ]
       }
     ],

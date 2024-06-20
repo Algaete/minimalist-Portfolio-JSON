@@ -1,0 +1,20 @@
+{
+    "site": {
+      "description": "hola pelotudo",
+      "cv":"cv",
+      "education":"Educación",
+      "project":"Proyectos",
+      "about": "Sobre mí",
+      "experience": "Experiencia",
+      "skills": "Habilidades",
+      "skills1":"Teamplayer",
+      "skills2":"Bias for action",
+      "skills3":"Deliver results",
+      "skills4":"Español",
+      "skills5":"Ingles"
+    },
+    "keyboard": {
+      "press": "Pulsa",
+      "instruction": "para abrir la paleta de comandos"
+    }
+}

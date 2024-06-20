@@ -1,0 +1,20 @@
+{
+    "site": {
+      "description": "Here is the description of my awesome website!",
+      "cv":"cvEn",
+      "education":"Education",
+      "project":"Projects",
+      "about": "Resume",
+      "experience": "Experience",
+      "skills": "Skills",
+      "skills1":"Teamplayer",
+      "skills2":"Bias for action",
+      "skills3":"Deliver results",
+      "skills4":"Spanish",
+      "skills5":"English"
+    },
+    "keyboard": {
+      "press": "Press",
+      "instruction": "to open the command palette"
+    }
+}
